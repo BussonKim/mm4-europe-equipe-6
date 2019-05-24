@@ -17,5 +17,8 @@ La gestion des utilisateurs ce fait via une API CouchDB dont la description est 
 
 ## Restitution
 
-- Lien Google Drive présentation 1 <add-link-here>
+- Lien Google Drive présentation 1 <Laurie F [16 h 17]
+https://docs.google.com/presentation/d/1xBt4LZS5hVkITj7khSYbNGKHI7jELckmnugpsbKewM4/edit
+
 - Lien Google Drive présentation 2 <add-link-here>
+  https://www.figma.com/proto/Gm6qGtjX0nsJcqFeBcIYbXOV/EUROPA?node-id=93%3A249&viewport=-414%2C2249%2C0.5579596757888794&scaling=min-zoom
