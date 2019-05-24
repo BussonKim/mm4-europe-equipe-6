@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="">
+            <div id="entete">
+                    <div>
+                         <img src="images/logo.png" alt="Élections Européennes" /> <!--Logo en haut à gauche à changer-->
+                     </div>
+                         <div>
+                       <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="formulaire.html">Faites le quizz</a></li>
+                       </ul>
+                   </div>
+               </div>
+
+        <h1 class="titre">Questionnaire</h1>
+        <p>Découvrez de quel parti vous êtes le plus proche</p>
+    </header>
+
+    <div id="app">
+        <div id="form">
+            <h2 class="question">{{question}}</h2>
+            <form action="#" @submit.prevent="nextQuestion">
+                <label class="box" for="agree">
+                    <input class="reponse" type="radio" name="answer" v-model="answer" value="10">
+                    D'accord
+                </label>
+            <br>
+                <label class="box" for="disagree">
+                    <input class="reponse"   type="radio" name="answer" v-model="answer" value="0" required>
+                    Pas d'accord
+                </label>
+            <br>
+                <label class="box" for="indifferent">
+                    <input class="reponse" type="radio" name="answer" v-model="answer" value="5">
+                    Ne se prononce pas 
+                </label>
+            <br>
+                <input class="button-previous" type="submit" value="Previous">
+                <input class="button" type="submit" value="Next">
+            </form>
+        </div>
+
+        <img src="images/femme.png" class="illu" alt="Photo de montagne" />
+
+        <div id="results">
+            <p></p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/formulaire.js"></script>
+</body>
+
+</html>

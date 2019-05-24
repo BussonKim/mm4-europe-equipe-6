@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
+/*Mettre font-family: Roboto; à chaque balises où on souhaite du roboto*/
+
+body {
+margin: 0;
+font-family: Raleway;
+font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+strong, b, h1 {
+font-weight: 700;
+}
+
+header {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 600px;
+color: white;
+position: relative;
+background-image: url
+}
+
+#fond {
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1000;
+width: 100%;
+}
+
+#entete {
+display: flex;
+justify-content: space-between;
+}
+
+#entete img {
+width: 100px;
+margin-top: 15px;
+margin-left: 15px;
+}
+
+#entete ul {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 500px;
+height: 60px;
+}
+
+li {
+list-style-type: none;
+}
+
+#entete li a {
+color: white;
+text-decoration: none;
+}
+
+#entete li:last-child a {
+border: 2px solid #FAEC8C;
+color: black;
+font-weight: bold;
+background: #FAEC8C;
+padding: 7px;
+border-radius: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+
+#entete li:last-child a:hover {
+background-color: rgba(255, 255, 255, 0.25);
+color: white;
+}
+
+
+#slogan {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#slogan h1 + p {
+margin-top: 5px;
+font-weight: 700;
+}
+
+h1 {
+margin: 0;
+text-transform: uppercase;
+font-size: 3.7em;
+}
+
+#slogan p {
+    text-align: center;
+}
+
+#slogan a {
+color: white;
+text-decoration: none;
+background-color: rgba(81,81,81,0.5);
+font-weight: 700;
+padding: 10px 25px 10px 25px;
+}
+
+#slogan a:hover {
+background-color: rgba(0,0,0,0.5);
+}
+
+#test {
+height: 0px;
+}
+
+#search {
+width: 835px;
+height: 40px;
+font-family: Roboto;
+font-weight: 400;
+}
+
+#rechercher {
+    font-weight: 15em;
+}
+
+input + input {
+width: 150px;
+height: 45px;
+color: white;
+font-weight: 700;
+background-color: #FF5A5F;
+border: none;
+}
+
+input + input:hover {
+opacity: 0.7;
+cursor: pointer;
+}
+
+main {
+display: flex;
+flex-direction: column;
+background-color: #EDEFED;
+align-items: center;
+min-height: 1200px;
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+section h2 {
+font-size: 32px;
+color: #565A5C;
+font-weight: 700;
+margin-top: 40px;
+margin-bottom: 0;
+}
+
+section p {
+color: #565A5C;
+font-size: 16px;
+}
+
+.col3 {
+display: flex;
+justify-content: center;
+}
+
+.col3 a {
+width: 300px;
+height: 300px;
+background-color: pink;
+margin: 20px;
+color: white;
+text-decoration: none;
+font-size: 32px;
+font-weight: 700;
+display: flex;
+}
+
+.col3 a span {
+margin: auto;
+}
+
+.col3 a:first-child {
+background: url("../images/voter.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.col3 a:nth-child(2) {
+background: url("../images/enjeux.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.col3 a:last-child {
+background: url("../images/fond-head.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.suite {
+border: 5px solid #2F5BEA;
+color: white;
+font-weight: bold;
+padding: 7px;
+border-radius: 5px;
+padding-left: 15px;
+padding-right: 15px;
+}

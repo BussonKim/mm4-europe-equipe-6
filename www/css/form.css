@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #1a1a1a;
+    background-color: #ffffff; 
+    background-image : url("/images/wavetest.png");
+    background-repeat:no-repeat;
+    width: 495px;
+    padding: 7px 345px 100px;
+}
+
+
+.button {
+  color: #ffffff;
+  font-family: 'Raleway';
+  background-color: #0640ff;
+  padding: 12px 85px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0;
+  margin: 81px 0px 0px 2px;
+  border-radius: 2px;
+  outline: 0;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+  .button:hover, .button:active, .button:focus {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+  }
+
+.button-previous{
+  border: 1px solid #0640ff;
+  font-family: 'Raleway';
+  color: #000000;
+  font-family: 'Raleway';
+  background-color: #fdfdfd;
+  padding: 12px 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 81px 0px 0px 2px;
+  border-radius: 2px;
+  outline: 0;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s;
+  transition: all .2s; }
+  .button:hover, .button:active, .button:focus {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); 
+  }
+
+  .illu{
+    position: absolute;
+    right: 30px;
+    bottom: 30px
+  }
+
+  .reponse{
+    margin: 15px;
+  }
+
+
+
+  #entete {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    #entete img {
+    width: 100px;
+    margin-left: 15px;
+    }
+    
+    #entete ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    }
+    
+    li {
+    list-style-type: none;
+    }
+    
+    #entete li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    
+    #entete li:last-child a {
+    border: 2px solid #FAEC8C;
+    color: black;
+    font-weight: bold;
+    background: #FAEC8C;
+    padding: 7px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    #entete li:first-child a:hover {
+    background-color: rgba(0,0,0,0.25);
+    }
+    
+
+    
